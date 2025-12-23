@@ -25,11 +25,12 @@ bash
 Copy code
 ./push_swap 3 2 1
 ./push_swap "4 1 3 2"
-To count the number of operations:
 
+To count the number of operations:
 bash
 Copy code
 ./push_swap 3 2 1 | wc -l
+
 Resources
 42 subject PDF: push_swap
 
