@@ -6,7 +6,7 @@
 /*   By: jaa-s <jaa-s@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/22 12:19:34 by jaa-s             #+#    #+#             */
-/*   Updated: 2025/12/22 12:19:38 by jaa-s            ###   ########.fr       */
+/*   Updated: 2026/01/03 12:24:46 by jaa-s            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include "libft/libft.h" 
 
 typedef struct s_node
 {
@@ -30,11 +31,6 @@ int					is_sorted(t_node *a);
 int					ft_atoi_custom(const char *str, int *error);
 void				print_error_and_exit(void);
 void				check_duplicates(t_node *a);
-char				*ft_substr(char const *str, unsigned int start, size_t len);
-char				**ft_split(const char *s, char c);
-char				*ft_strdup(const char *str);
-size_t				ft_strlen(const char *s);
-char				**ft_clear(char **lst, int i);
 void				sa(t_node **a);
 void				sb(t_node **b);
 void				ra(t_node **a);
