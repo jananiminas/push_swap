@@ -6,7 +6,7 @@
 /*   By: jaa-s <jaa-s@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/22 12:14:56 by jaa-s             #+#    #+#             */
-/*   Updated: 2026/01/03 14:53:19 by jaa-s            ###   ########.fr       */
+/*   Updated: 2026/01/05 13:51:00 by jaa-s            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,6 +93,7 @@ void	chunk_sort(t_node **a, t_node **b)
 	int	size;
 	int	chunks;
 
+	size = stack_size(*a);
 	if (size <= 100)
 		chunks = 5;
 	else

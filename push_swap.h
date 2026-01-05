@@ -6,7 +6,7 @@
 /*   By: jaa-s <jaa-s@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/22 12:19:34 by jaa-s             #+#    #+#             */
-/*   Updated: 2026/01/03 12:24:46 by jaa-s            ###   ########.fr       */
+/*   Updated: 2026/01/05 13:19:12 by jaa-s            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include "libft/libft.h" 
+# include "../libft/libft.h" 
 
 typedef struct s_node
 {
